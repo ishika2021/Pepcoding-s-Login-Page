@@ -1,0 +1,118 @@
+body{
+    background-color: #FDFDFD;
+}
+.loginBox,.SignUpBox{
+    background-color: #FDFDFD;
+    height:65vh;
+    width:33vw;
+    margin: 0 auto;
+    margin-top: 16vh;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+}
+.SignUpBox{
+    height:85vh;
+    margin-top:0;
+}
+.loginInnerBox,.SignUpInnerBox{
+    background-color: #FDFDFD;
+    height:90%;
+    width:90%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.SignUpInnerBox{
+    height:50%;
+    
+}
+.SignUpInnerBox>.row{
+    height:13%; 
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:10%;
+    margin-top: 0;
+}
+.row2{
+    height:8%;
+}
+h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.64rem;
+    font-weight: 100;
+    color: #484848;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 0.7rem;
+}
+h5{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.9rem;
+    margin-left: 0.2rem;
+}
+
+.lightText{
+    color:#9e9e9e;
+    font-weight: 100;
+}
+.boldText{
+    cursor:pointer;
+}
+.input_row{
+    margin-top: 1rem;
+}
+.input-field{
+    height:100%;
+    width:75%;
+    background-color: #FDFDFD;
+    border: 1px solid black;
+    font-weight: 100;
+}
+.signInBtn{
+    margin-top: 2rem;
+    height:13%;
+}
+
+.signInBtn>.input-field,.signUnBtn>.input-field{
+    height: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #fff;
+    color:#F8423D;
+    font-weight:bold;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+    cursor: pointer;
+    border:none;
+}
+.signUpBtn>.input-field{
+    height:20%;
+    
+}
+.signInBtn>button:hover{
+    background-color: #F8423D;
+    color:white;
+}
+.signUnBtn>button:hover{
+    background-color: #F8423D;
+    color:white;
+}
+.googleLoginBtn{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 25%);
+    cursor: pointer;
+    border:none;
+}
+.googleSignInText{ 
+    margin-right: 8vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #484848;
+}
+.googleLogo{
+    height:80%;
+    width:1.5rem;
+    padding-top: 0.2rem;
+}
